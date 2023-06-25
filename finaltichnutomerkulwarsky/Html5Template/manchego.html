@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>גבנצאן-מנצ'גו</title>
+    <meta name="description" content="גבנצאן- דף מידע על מנצג'ו" />
+    <meta name="keywords" content="cheese,food,dairy,sheep,manchego" />
+    <meta name="author" content="Tomer Kulwarsky" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Alef&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="images/justCheeselogo.png">
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/manchegoJavaScript.js"></script>
+</head>
+<body>
+    <div id="container">
+        <article role="article">
+            <!--header-->
+            <header class="header">
+                <!--תפריט עליון-->
+                <nav class="topnav" aria-label="תפריט ראשי">
+                    <ul class="row">
+                        <li> <a href="index.html" id="logoInMenueImg"><img id="logoImg" src="images/logo.png" alt="תמונת הלוגו-של גבינה צהובה גבנצאן" /></a></li>
+                        <li> <a href="index.html">דף הבית</a></li>
+                        <li>
+                            <a href="#">סוגי גבינות</a>
+                            <!--תת תפריט-->
+                            <ul id="dropdown-content">
+                                <li> <a id="manchegoMenueli" href="manchego.html">מנצ'גו</a> </li>
+                                <li> <a class="notActive" href="">פקורינו-רומאנו</a> </li>
+                                <li> <a id="rokfurrMenueli" href="roquefort.html">רוקפור</a> </li>
+                                <li> <a class="notActive" id="fetaMenueli" href="">פטה</a> </li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">אודות</a></li>
+                        <li><a href="contactUs.html">צרו קשר</a></li>
+                        <li><a href="siteMap.html">מפת אתר</a></li>
+                    </ul>
+                </nav>
+
+
+                <!--תוכן-->
+                <section class="innerPagesConententDiv">
+
+                    <section class="card">
+                        <!--תפריט פירורי לחם-->
+                        <nav>
+                            <ol id="breadMenue">
+                                <li> <a href="index.html">דף הבית</a> </li>
+                                <li>מנצ'גו'</li>
+                            </ol>
+                        </nav>
+
+                        <h1>גבינת מנצ'גו</h1>
+                        <h2>תיאור הגבינה</h2>
+
+                        <!--פרטים ואייקונים הקשורים לגבינה-->
+                        <div id="iconsDiv">
+                            <div>
+                                <img class="myIcons" src="images/sheepIcon.jpg" alt="אייקון כבשה" />
+                                <h3>סוג החלב</h3>
+                                <p>כבשים</p>
+                            </div>
+
+                            <div>
+                                <img class="myIcons" src="images/spainIcon.jpg" alt="דגל ספרד" />
+                                <h3>ארץ מקור</h3>
+                                <p>ספרד</p>
+                            </div>
+
+                            <div>
+                                <img class="myIcons" src="images/cheeseIcon.jpg" alt="אייקון גבינה" />
+                                <h3>סוג הגבינה</h3>
+                                <p>קשה</p>
+                            </div>
+                        </div>
+
+                        <p>
+                            הגבינה נחשבת לטובה ולחשובה בגבינות הספרדיות. <br /> סימן ההיכר של המנצ'גו היא הטקסטורה הייחודית שעוטפת אותה, צבע הגבינה הוא השנהב ומרקמה קשיח אך גמיש.<br /> טעמה מתקתק ואגוזי ורמת המליחות עדינה
+                        </p>
+                        <img id="manchegoImgPage" src="images/manchegoBig.png" alt="גבינת מנצ'גו'" />
+                    </section>
+                </section>
+            </header>
+
+            <div class="innerPagesConententDiv">
+                <section class="card">
+                    <h2>איך כדאי לאכול?</h2>
+                    <p>
+                        מצ'גו הולכת נהדר כאשר היה חתוכה לקוביות קטנות שמוגשות לצד פירות לחם, שמן זית ויין.<br /> אפשר גם להוסיף אותה לסלטים אך לא מומלץ לבשלה
+                    </p>
+
+                </section>
+
+                <section class="card">
+                    <h2>עובדה חשובה</h2>
+                    <p>
+                        על מנת שגבינה תקרא מנצ'גו היא מחויבת למספר תנאים : <br /> הזמן המינימלי ליישון הגבינה הוא חודשיים והגבינה תיוצר אך ורק בחבל מנצ'ה בספרד.
+                    </p>
+                    <img id="stampCheese" src="images/stamp.jpg" alt="חותמת גבינה מקורית של האיחוד " />
+                </section>
+
+                <section id="gallery" class="card">
+                  
+                    <!-- התמונות הגדולות -->
+                    <div id="img1" class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="images/overhead-view-white-cheese-parmesan-cheese-spanish-manchego-cheese-arranged-smooth-backdrop.jpg"  style="width:100%">
+
+                    </div>
+
+                    <div id="img2" class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="images/hard-cheese-manchego-with-nuts-grey-stone-background-close-up.jpg" style="width:100%">
+
+                    </div>
+
+                    <div id="img3" class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="images/top-view-triangle-pieces-cured-manchego-cheese-sharp-knife-wooden-food-board.jpg" style="width:100%">
+                    </div>
+
+                    <div id="img4" class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="images/spanish-manchego-cheese-bay-leaves-raw-pasta-garlic-bulbs-wooden-table.jpg" style="width:100%">
+                    </div>
+
+                    <div id="img5" class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="images/spanish-manchego-cheese-red-grapes-raw-pasta-balls-checkered-table-cloth-wooden-desk.jpg" style="width:100%">
+                    </div>
+
+                    <div id="img6" class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="images/close-up-fresh-spanish-manchego-cheese.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a id="prev" onclick="nextPreviosFunc(-1)">&#10094;</a>
+                    <a id="next" onclick="nextPreviosFunc(1)">&#10095;</a>
+
+                    <!-- Image text -->
+                    <div class="caption-container">
+                        <p id="caption">The Woods</p>
+                    </div>
+
+                    <!-- Thumbnail images -->
+                    <div class="row">
+                        <div class="column">
+                            <img id="mini1" class="miniImg cursor" src="images/overhead-view-white-cheese-parmesan-cheese-spanish-manchego-cheese-arranged-smooth-backdrop.jpg" style="width:100%" onclick="miniImgClickFunc(1)" alt="Withe Manchgo">
+                        </div>
+                        <div class="column">
+                            <img id="mini2" class="miniImg cursor" src="images/hard-cheese-manchego-with-nuts-grey-stone-background-close-up.jpg" style="width:100%" onclick="miniImgClickFunc(2)" alt="Manchego Triangle">
+                        </div>
+                        <div class="column">
+                            <img id="mini3" class="miniImg cursor" src="images/top-view-triangle-pieces-cured-manchego-cheese-sharp-knife-wooden-food-board.jpg" style="width:100%" onclick="miniImgClickFunc(3)" alt="Piece Of Manchego">
+                        </div>
+                        <div class="column">
+                            <img  id="mini4" class="miniImg cursor" src="images/spanish-manchego-cheese-bay-leaves-raw-pasta-garlic-bulbs-wooden-table.jpg" style="width:100%" onclick="miniImgClickFunc(4)" alt="Manchego And Leaves">
+                        </div>
+                        <div class="column">
+                            <img  id="mini5" class="miniImg cursor" src="images/spanish-manchego-cheese-red-grapes-raw-pasta-balls-checkered-table-cloth-wooden-desk.jpg" style="width:100%" onclick="miniImgClickFunc(5)" alt="Manchego And Grapes">
+                        </div>
+                        <div class="column">
+                            <img id="mini6" class="miniImg cursor" src="images/close-up-fresh-spanish-manchego-cheese.jpg" style="width:100%" onclick="miniImgClickFunc(6)" alt="Close Up">
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            
+
+
+            <!--פוטר-->
+            <footer id="myFooter" class="footer column" aria-label="תפריט תחתון">
+
+                <ul>
+                    <li><a href="siteMap.html">מפת האתר</a></li>
+                    <li id="contactFooter"><a href="contactUs.html">צור קשר</a></li>
+                </ul>
+
+            </footer>
+        </article>
+
+    </div>
+</body>
+</html>

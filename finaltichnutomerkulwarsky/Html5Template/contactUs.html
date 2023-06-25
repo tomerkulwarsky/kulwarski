@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>גבנצאן- צרו קשר</title>
+    <meta name="description" content="גבנצאן- צרו קשר" />
+    <meta name="keywords" content="cheese,food,dairy,sheep" />
+    <meta name="author" content="Tomer Kulwarsky" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Alef&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="images/justCheeselogo.png">
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/myJavaScript.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <article role="article">
+
+            <!--header-->
+            <header class="header">
+                <!--תפריט עליון-->
+                <nav class="topnav" aria-label="תפריט ראשי">
+                    <ul class="row">
+                        <li> <a href="index.html" id="logoInMenueImg"><img id="logoImg" src="images/logo.png" alt="תמונת הלוגו-של גבינה צהובה גבנצאן" /></a></li>
+                        <li> <a href="index.html">דף הבית</a></li>
+                        <li>
+                            <a href="#">סוגי גבינות</a>
+                            <!--תת תפריט-->
+                            <ul id="dropdown-content">
+                                <li> <a id="manchegoMenueli" href="manchego.html">מנצ'גו</a> </li>
+                                <li> <a class="notActive" href="">פקורינו-רומאנו</a> </li>
+                                <li> <a id="rokfurrMenueli" href="roquefort.html">רוקפור</a> </li>
+                                <li> <a class="notActive" id="fetaMenueli" href="">פטה</a> </li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">אודות</a></li>
+                        <li><a href="contactUs.html">צרו קשר</a></li>
+                        <li><a href="siteMap.html">מפת אתר</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <!--תוכן-->
+            <section class="innerPagesConententDiv">
+                <div class="card">
+                    <!--תפריט פירורי לחם-->
+                    <nav>
+                        <ol id="breadMenue">
+                            <li> <a href="index.html">דף הבית</a> </li>
+                            <li>צרו קשר</li>
+                        </ol>
+                    </nav>
+
+                    <h1>צרו קשר</h1>
+                    <p>אוהבי גבינות? יש לכם שאלה אלינו? מצאתם טעות באתר? נשמח לשמוע מכם!<br />  השאירו פרטים ונחזור אליכם</p>
+
+                    <!--טופס הצרו קשר-->
+                    <form id="contactForm" action="/action_page.php">
+                        <label for="fname">שם מלא <span class="red">*</span></label>
+                        <input type="text" id="fname" required class="formInput" name="fullname" placeholder="השם המלא שלך..">
+
+                        <label>מין:</label><br />
+                        <label for="maleRadio"> <input type="radio" id="maleRadio" name="userSex" /> זכר</label> <br />
+                        <label for="femaleRadio"> <input type="radio" id="femaleRadio" name="userSex" /> נקבה</label> <br /><br />
+
+                        <label for="phoneNum">טלפון <span class="red">*</span></label>
+                        <input type="tel" id="phoneNum" required name="phoneNumber" class="formInput" placeholder="050-0000000">
+                        <label for="userMail">מייל <span class="red">*</span></label>
+                        <input type="email" id="userMail" required name="userMailAdd" class="formInput" placeholder="user@gmail.com">
+
+                        <label for="area">אזור</label>
+                        <select id="area" name="area">
+                            <option value="jerusalem">ירושלים ומרכז</option>
+                            <option value="north">צפון</option>
+                            <option value="shfela">שפלה</option>
+                            <option value="south">דרום</option>
+                            <option value="tlv">תל אביב והאזור</option>
+
+                        </select>
+                        <label for="subject">תוכן הפנייה<span class="red">*</span></label>
+                        <textarea id="subject" required name="subject" placeholder="תוכן הפניה שלך.." style="height:170px"></textarea>
+                        <!--כפתור שליחה-->
+                        <input id="submitBtn" onclick="formFunc()" class="myButtons" type="submit" value="שליחה">
+                    </form>
+                </div>
+
+            </section>
+
+        </article>
+        <!--פוטר-->
+        <footer id="myFooter" class="footer column" aria-label="תפריט תחתון">
+
+            <ul>
+                <li><a href="siteMap.html">מפת האתר</a></li>
+                <li id="contactFooter"><a href="contactUs.html">צור קשר</a></li>
+            </ul>
+
+        </footer>
+    </div>
+
+
+
+</body>
+</html>

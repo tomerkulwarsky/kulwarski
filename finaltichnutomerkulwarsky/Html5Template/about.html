@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>גבנצאן-אודות</title>
+    <meta name="description" content="גבנצאן-דף אודות" />
+    <meta name="keywords" content="cheese,food,dairy,sheep" />
+    <meta name="author" content="Tomer Kulwarsky" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Alef&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="images/justCheeselogo.png">
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <article role="article">
+            <!--header-->
+            <header class="header">
+                <!--תפריט עליון-->
+                <nav class="topnav" aria-label="תפריט ראשי">
+                    <ul class="row">
+                        <li> <a href="index.html" id="logoInMenueImg"><img id="logoImg" src="images/logo.png" alt="תמונת הלוגו-של גבינה צהובה גבנצאן" /></a></li>
+                        <li> <a href="index.html">דף הבית</a></li>
+                        <li>
+                            <a href="#">סוגי גבינות</a>
+                            <!--תת תפריט-->
+                            <ul id="dropdown-content">
+                                <li> <a id="manchegoMenueli" href="manchego.html">מנצ'גו</a> </li>
+                                <li> <a class="notActive" href="">פקורינו-רומאנו</a> </li>
+                                <li> <a id="rokfurrMenueli" href="roquefort.html">רוקפור</a> </li>
+                                <li> <a class="notActive" id="fetaMenueli" href="">פטה</a> </li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">אודות</a></li>
+                        <li><a href="contactUs.html">צרו קשר</a></li>
+                        <li><a href="siteMap.html">מפת אתר</a></li>
+                    </ul>
+                </nav>
+
+
+                <!--תוכן-->
+                <section class="innerPagesConententDiv">
+
+                    <div class="card">
+                        <!--תפריט פירורי לחם-->
+                        <nav>
+                            <ol id="breadMenue">
+                                <li> <a href="index.html">דף הבית</a> </li>
+                                <li>אודות</li>
+                            </ol>
+                        </nav>
+
+                        <h1>אודות גבנצאן</h1>
+                        <p>פותח על ידי תומר קולברסקי</p>
+                        <p>
+                            אתם אוהבים גבינות צאן ? אם כן... אז האתר הזה הוקם בשבילכם.
+                            כאן תוכלו למצוא מאיזה מדינה בעולם הגבינה מגיעה, מה השימוש שלה במטבח ואיך כדאי לאכול אותה ועוד עובדות מעניינות שאולי לא ידעתם
+                        </p>
+                    </div>
+                </section>
+            </header>
+
+                <div class="innerPagesConententDiv">
+                    <section class="card">
+                        <h2>קצת על עצמי</h2>
+                        <img id="tomerImg" src="images/me.png" alt="תמונה של תומר מחזיק גלגל גבינה" />
+
+                        <p>
+                            אני בן 28, מתגורר בתל אביב כל חיי ומושפע מהסנצה הקולינרית שמתרחשת בה.
+                            מגיל קטן התעניינתי בבישול ומאז שאני נער אני מבשל בעצמי. אחד הדברים שהכי מעניינים אותי בבישול הוא חומרי גלם ובעיקר גבינות. עבדתי במשך שנה במעדניית עדינה בשינקין, תל אביב ויצא לי לבקר ולטעום במיטב המחלבות בארץ ואף באיטליה וספרד.
+                        </p>
+
+                    </section>
+
+                    <section class="card">
+                        <h2>על הפרוייקט</h2>
+                        <p>
+                            האתר פותח במסגרת פרוייקט לקורס "פיתוח אתרי אינטרנט" בשנה א', תשפ"ב.<br />
+                            האתר אופיין ועוצב לפי עקרונות של "עיצוב ממשק" ופותח ב- HTML5 וב-CSS3 תוך התחשבות בעקרונות "נגישות אתרים".<br />
+                            להלן המסכים שפותחו באתר:
+                        </p>
+                        <ul class="pagesList">
+                            <li><a href="index.html">דף הבית</a></li>
+                            <li><a href="manchego.html">מנצ'גו'</a></li>
+                            <li><a href="roquefort.html">רוקפור</a></li>
+                            <li><a href="about.html">אודות</a></li>
+                            <li><a href="contactUs.html">צרו קשר</a></li>
+                            <li><a href="siteMap.html">מפת אתר</a></li>
+                        </ul>
+
+                        <a id="hitLink" href="https://www.hit.ac.il/telem/overview">לאתר הפקולטה לטכנולוגיות למידה</a>
+                        <img id="hitLogo" src="images/bluelogo.png" alt="הלוגו של HIT" />
+
+                    </section>
+            
+            </div>
+        </article>
+
+        <!--פוטר-->
+        <footer id="myFooter" class="footer column" aria-label="תפריט תחתון">
+
+            <ul>
+                <li><a href="siteMap.html">מפת האתר</a></li>
+                <li id="contactFooter"><a href="contactUs.html">צור קשר</a></li>
+            </ul>
+
+        </footer>
+    </div>
+</body>
+</html>

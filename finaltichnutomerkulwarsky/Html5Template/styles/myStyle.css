@@ -1,0 +1,469 @@
+﻿
+body {
+    font-family: Alef;
+    padding: 10px;
+    background: #f1f1f1;
+    direction: rtl;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+/*עיצוב הבאנר בדף הבית*/
+#indexBanner {
+    background-image: url('../images/bannerImg.jpg');
+    padding: 30px;
+    text-align: center;
+}
+
+#myImgIndex {
+    width: 96%;/*הגדרת הרוחב של התמונה שלי בדף הבית*/
+}
+
+#indexBanner h1 {
+    font-size: 50px;
+    color: white;
+    margin: 0px;
+}
+
+#indexBanner p {
+    color: white;
+}
+
+ /*--------------------עיצוב התפריט---------------*/
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #456dbc;
+}
+
+
+
+    /* Style the topnav links */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #9ebbed;
+            color: black;
+        }
+
+
+ul {
+    list-style: none; /*העלמת הבולטים ברשימה*/
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+
+}
+
+    nav ul li a {
+
+        text-decoration: none;
+        text-align: center;
+    }
+
+/*------- ---עיצוב תפריט בתוך תפריט של סוגי הגבינות-----------*/
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        background-color: #456dbc;
+        margin-top: 48px;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+        width: 120px;
+    }
+
+
+#dropdown-content {
+    padding-right: 4px;
+    padding-left: 0px;
+    width: min-content;
+}
+
+#manchegoMenueli {
+    padding: 12px 17px 14px 73px;
+}
+
+#rokfurrMenueli {
+    padding: 12px 17px 14px 73px;
+}
+#fetaMenueli {
+    padding: 12px 17px 14px 90px;
+}
+
+/*   מעבר עכבר על פריט בתפריט הגבינות של התמונות*/
+.cheeseMenueLi:hover a {
+    text-decoration: underline;
+}
+
+.cheeseMenueLi a {
+    color: black;
+}
+
+/*עיצוב החלק של הלוגו בתפריט*/
+#logoInMenueImg {
+    margin: 0px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding: 2px;
+}
+
+#logoImg{
+    height:48px;
+}
+
+/*מניעת לחיצה על דפים שלא פותחו*/
+.notActive {
+    cursor: not-allowed;
+}
+
+
+/*----------עיצוב כפתורים----------*/
+.myButtons {
+    background-color: #0441aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+}
+
+    .myButtons:hover {
+        background-color: #5e8ae2;
+    }
+
+/*---------עיצוב תפריט הגבינות בדף הבית----------*/
+
+.cheeseMenueImg {
+    margin: 10px 40px 10px 40px;
+    width: 120px;
+    height: 120px;
+}
+
+.cheeseMenueP {
+    margin-top: 5px;
+}
+
+
+#cheeseNav {
+    background-color: white;
+    margin-top: 20px;
+}
+
+    #cheeseNav ul {
+        padding-bottom: 12px;
+    }
+
+/*-----------עיצוב הפוטר-----------*/
+#myFooter {
+    width: 100%;
+    text-align: center;
+    background: #ddd;
+    padding: 0px;
+}
+
+    #myFooter li{
+        float:none;
+    }
+
+    #contactFooter {
+        padding-right: 55px;
+    }
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+.footer ul li a{
+    text-decoration: none;/*הורדת קו תחתון מהטקסט*/
+}
+
+ /*   -----------עיצוב תפריט פירורי לחם---------*/
+nav ol li {
+    display: inline-block;
+}
+    nav ol li:after {
+        content: ">";
+    }
+
+    nav ol li:last-child:after {
+        content: "";
+    }
+
+#breadMenue {
+    padding-right: 0px;
+    font-size: 10pt;
+}
+
+
+/*---------------התאמות בדף אודות------------*/
+#tomerImg {
+    height: 311px;
+}
+
+.innerPagesConententDiv {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.pagesList li {
+    margin: 10px 0px;
+}
+
+#hitLink {
+    text-decoration: none;   
+    margin: 0 auto;
+    margin-right: 36%;
+    font-size: 16pt;
+    color: black;
+}
+
+#hitLogo {
+    margin-right: 36%;
+}
+
+#manchegoImgPage {
+    height: 200px;
+    margin-right: 36%;
+}
+
+#stampCheese {
+    height: 100px;
+}
+
+/*התאמות בדף צרו קשר
+*/
+#contactForm {
+    /*float: right;*/
+    width: 50%;
+}
+
+.red{
+    color:red;
+}
+
+/*התאמות בדפי התוכן של הגבינות*/
+
+#iconsDiv {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+    #iconsDiv h3{
+        margin:0px;
+    }
+    #iconsDiv p {
+        margin-top: 0px;
+    }
+
+.myIcons{
+    height:35px;
+}
+
+
+
+/*---------------from the tamplate------------------*/
+* {
+    box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+/*--------------------------contact page---------------------*/
+/* Style inputs */
+
+
+.formInput, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/*--------------גלריית תמונות------------------*/
+#gallery {
+    position: relative;
+    direction:ltr;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+#img1 {
+    display: block;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+#prev,
+#next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #456dbc;
+        
+}
+
+/* Position the "next button" to the right */
+#next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    #prev:hover,
+    #next:hover {
+        background-color: lightgray;
+    }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    background-color: #456dbc;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #456dbc;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.miniImg {
+    opacity: 0.6;
+}
+
+    .active,
+    .miniImg:hover {
+        opacity: 1;
+    }

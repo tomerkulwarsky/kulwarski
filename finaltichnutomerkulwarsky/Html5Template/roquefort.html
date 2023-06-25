@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>גבנצאן-רוקפור</title>
+    <meta name="description" content="גבנצאן- דף מידע על רוקפור" />
+    <meta name="keywords" content="cheese,food,dairy,sheep, roquefort" />
+    <meta name="author" content="Tomer Kulwarsky" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Alef&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="images/justCheeselogo.png">
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <article role="article">
+            <!--header-->
+            <header class="header">
+                <!--תפריט עליון-->
+                <nav class="topnav" aria-label="תפריט ראשי">
+                    <ul class="row">
+                        <li> <a href="index.html" id="logoInMenueImg"><img id="logoImg" src="images/logo.png" alt="תמונת הלוגו-של גבינה צהובה גבנצאן" /></a></li>
+                        <li> <a href="index.html">דף הבית</a></li>
+                        <li>
+                            <a href="#">סוגי גבינות</a>
+                            <!--תת תפריט-->
+                            <ul id="dropdown-content">
+                                <li> <a id="manchegoMenueli" href="manchego.html">מנצ'גו</a> </li>
+                                <li> <a class="notActive" href="">פקורינו-רומאנו</a> </li>
+                                <li> <a id="rokfurrMenueli" href="roquefort.html">רוקפור</a> </li>
+                                <li> <a class="notActive" id="fetaMenueli" href="">פטה</a> </li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">אודות</a></li>
+                        <li><a href="contactUs.html">צרו קשר</a></li>
+                        <li><a href="siteMap.html">מפת אתר</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!--תוכן-->
+            <section class="innerPagesConententDiv">
+
+                <section class="card">
+                    <!--תפריט פירורי לחם-->
+                    <nav>
+                        <ol id="breadMenue">
+                            <li> <a href="index.html">דף הבית</a> </li>
+                            <li>רוקפור</li>
+                        </ol>
+                    </nav>
+
+                    <h1>גבינת רוקפור</h1>
+                    <h2>תיאור הגבינה</h2>
+
+                    <!--פרטים ואייקונים הקשורים לגבינה-->
+                    <div id="iconsDiv">
+                        <div>
+                            <img class="myIcons" src="images/sheepIcon.jpg" alt="אייקון כבשה" />
+                            <h3>סוג החלב</h3>
+                            <p>כבשים</p>
+                        </div>
+
+                        <div>
+                            <img class="myIcons" src="images/franceIcon.jpg" alt="דגל צרפת" />
+                            <h3>ארץ מקור</h3>
+                            <p>צרפת</p>
+                        </div>
+
+                        <div>
+                            <img class="myIcons" src="images/cheeseIcon.jpg" alt="אייקון גבינה" />
+                            <h3>סוג הגבינה</h3>
+                            <p>כחולה</p>
+                        </div>
+                    </div>
+
+                    <p>
+                        הגבינה נחשבת לטובה לגבינה הכחולה המפורסמת ביותר בצרפת.<br />     לגבינה צבע לבן ונימים כחולים כהים של עובש, מרקמה חלק ונימוך וטעמה מאופיין בטעמי אדמה חזקים כתוצאה מהתיישנותה במערות.
+                    </p>
+                    <img id="manchegoImgPage" src="images/rokforBig.jpg" alt="גבינת רוקפור'" />
+                </section>
+            </section>
+
+            <section class="innerPagesConententDiv">
+
+
+                <section class="card">
+                    <h2>איך כדאי לאכול?</h2>
+                    <p>
+                        כדאי להוסיף את הרוקפור לסלט עלים עם פירות או לאכול אותה איך שהיא  לצד יין אדום.<br />
+                        הרוקפור טובה גם לאפייה ואפשר להכין איתה קישים ואף עוגיות.
+                    </p>
+
+                </section>
+
+                <section class="card">
+                    <h2>עובדה חשובה</h2>
+                    <p>
+                        החקיקה של האיחוד האירופי קובעת שרק אלו שהתבגרו במערות קומבלו הטבעיות של רוקפור-סור-סולזון רשאיות להשתמש בשם רוקפור, מכיוון שזהו ייעוד גיאוגרפי מוגן.
+                    </p>
+                    <img id="stampCheese" src="images/stamp.jpg" alt="חותמת גבינה מקורית של האיחוד " />
+                </section>
+
+            </section>
+
+
+
+            <!--פוטר-->
+            <footer id="myFooter" class="footer column" aria-label="תפריט תחתון">
+
+                <ul>
+                    <li><a href="siteMap.html">מפת האתר</a></li>
+                    <li id="contactFooter"><a href="contactUs.html">צור קשר</a></li>
+                </ul>
+
+            </footer>
+
+        </article>
+    </div>
+</body>
+</html>
